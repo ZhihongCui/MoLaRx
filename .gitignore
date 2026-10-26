@@ -1,0 +1,23 @@
+# Training outputs / model checkpoints
+outputs/
+checkpoints/
+runs/
+
+# Logs
+logs/
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Backups / editor temp
+*.bak
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,41 @@
+{
+  "ckpt": "qwen_vl_pipeline/outputs/phase2_cisr_nuscenes/checkpoints/cis_selective_final",
+  "dataset": "nuscenes",
+  "id": {
+    "n_total": 300,
+    "n_eval": 300,
+    "n_fail": 0,
+    "ade_mean": 1.7275553909039938,
+    "fde_mean": 3.266881871721909
+  },
+  "ood": {
+    "n_total": 300,
+    "n_eval": 300,
+    "n_fail": 0,
+    "ade_mean": 4.633518162052271,
+    "fde_mean": 8.241801593004517
+  },
+  "id_blank": {
+    "n_total": 300,
+    "n_eval": 300,
+    "n_fail": 0,
+    "ade_mean": 8.011222612446582,
+    "fde_mean": 13.730551702421153
+  },
+  "ood_blank": {
+    "n_total": 300,
+    "n_eval": 300,
+    "n_fail": 0,
+    "ade_mean": 9.65707330302335,
+    "fde_mean": 16.542039562248622
+  },
+  "summary": {
+    "ADE_id": 1.7275553909039938,
+    "ADE_ood": 4.633518162052271,
+    "FDE_id": 3.266881871721909,
+    "FDE_ood": 8.241801593004517,
+    "Gap_rel_pct": 168.21242238882118,
+    "Gap_abs_m": 2.905962771148277,
+    "ImgDep_pct": 363.73173645416233
+  }
+}

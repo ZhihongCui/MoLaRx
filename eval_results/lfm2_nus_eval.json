@@ -1,0 +1,51 @@
+{
+  "ckpt": "lfm2_vl_pipeline/outputs/phase2_vl_vg2/checkpoints/cis_selective_final",
+  "dataset": "nuscenes",
+  "id": {
+    "n_total": 300,
+    "n_evaluated": 300,
+    "parse_failures": 0,
+    "ade_mean": 1.1159,
+    "ade_median": 0.7718,
+    "ade_std": 1.1711,
+    "fde_mean": 2.0137,
+    "fde_median": 1.4711
+  },
+  "ood": {
+    "n_total": 300,
+    "n_evaluated": 300,
+    "parse_failures": 0,
+    "ade_mean": 4.2664,
+    "ade_median": 3.3986,
+    "ade_std": 3.742,
+    "fde_mean": 7.4621,
+    "fde_median": 5.9078
+  },
+  "id_blank": {
+    "n_total": 300,
+    "n_evaluated": 300,
+    "parse_failures": 0,
+    "ade_mean": 8.1457,
+    "ade_median": 7.0423,
+    "ade_std": 5.4682,
+    "fde_mean": 13.1405,
+    "fde_median": 11.1394
+  },
+  "ood_blank": {
+    "n_total": 300,
+    "n_evaluated": 300,
+    "parse_failures": 0,
+    "ade_mean": 7.6575,
+    "ade_median": 6.6319,
+    "ade_std": 4.8852,
+    "fde_mean": 12.5421,
+    "fde_median": 11.0439
+  },
+  "summary": {
+    "ADE_id": 1.1159,
+    "ADE_ood": 4.2664,
+    "FDE_id": 2.0137,
+    "FDE_ood": 7.4621,
+    "Gap_rel_pct": 282.3281656062372
+  }
+}

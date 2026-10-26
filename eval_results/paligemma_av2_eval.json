@@ -1,0 +1,41 @@
+{
+  "ckpt": "paligemma_vl_pipeline/outputs/phase2_cisr_av2/checkpoints/cis_selective_final",
+  "dataset": "av2",
+  "id": {
+    "n_total": 300,
+    "n_eval": 300,
+    "n_fail": 0,
+    "ade_mean": 2.3946867464258372,
+    "fde_mean": 4.358883369432021
+  },
+  "ood": {
+    "n_total": 300,
+    "n_eval": 300,
+    "n_fail": 0,
+    "ade_mean": 4.506653745227005,
+    "fde_mean": 7.786929972177451
+  },
+  "id_blank": {
+    "n_total": 300,
+    "n_eval": 300,
+    "n_fail": 0,
+    "ade_mean": 4.925759358716294,
+    "fde_mean": 8.340832987075895
+  },
+  "ood_blank": {
+    "n_total": 300,
+    "n_eval": 300,
+    "n_fail": 0,
+    "ade_mean": 5.470362573726331,
+    "fde_mean": 9.253549175826715
+  },
+  "summary": {
+    "ADE_id": 2.3946867464258372,
+    "ADE_ood": 4.506653745227005,
+    "FDE_id": 4.358883369432021,
+    "FDE_ood": 7.786929972177451,
+    "Gap_rel_pct": 88.19387345561418,
+    "Gap_abs_m": 2.1119669988011673,
+    "ImgDep_pct": 105.69535310070016
+  }
+}

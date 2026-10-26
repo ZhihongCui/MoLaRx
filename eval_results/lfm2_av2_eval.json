@@ -1,0 +1,41 @@
+{
+  "ckpt": "argoverse2_pipeline/outputs/phase2_cisr/checkpoints/cis_selective_final",
+  "dataset": "av2",
+  "id": {
+    "n_total": 300,
+    "n_eval": 300,
+    "n_fail": 0,
+    "ade_mean": 3.2150230122701204,
+    "fde_mean": 5.539134394983515
+  },
+  "ood": {
+    "n_total": 300,
+    "n_eval": 300,
+    "n_fail": 0,
+    "ade_mean": 4.15190727823691,
+    "fde_mean": 7.292609132346257
+  },
+  "id_blank": {
+    "n_total": 300,
+    "n_eval": 300,
+    "n_fail": 0,
+    "ade_mean": 4.677451120413802,
+    "fde_mean": 8.044323067946747
+  },
+  "ood_blank": {
+    "n_total": 300,
+    "n_eval": 300,
+    "n_fail": 0,
+    "ade_mean": 4.683570565767556,
+    "fde_mean": 8.20127474848878
+  },
+  "summary": {
+    "ADE_id": 3.2150230122701204,
+    "ADE_ood": 4.15190727823691,
+    "FDE_id": 5.539134394983515,
+    "FDE_ood": 7.292609132346257,
+    "Gap_rel_pct": 29.14082612756349,
+    "Gap_abs_m": 0.93688426596679,
+    "ImgDep_pct": 45.48732940829137
+  }
+}
